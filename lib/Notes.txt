@@ -1,0 +1,7 @@
+Notes
+
+"static" means a member is available on the class itself instead of on instances of the class. That's all it means, and it isn't used for anything else. static modifies *members*.
+
+"late" means, the Dart compiler keeps its faith on us that, we’ll never allow this private property to be null.
+
+call backs for passing data
