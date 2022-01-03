@@ -4,10 +4,7 @@ import 'package:flutter/material.dart';
 
 late Timer timer;
 
-int count = 100;
 DateTime now = DateTime.now();
-// DateTime future = DateTime.utc(2021, 12, 25);
-
 int daysLeft = 0;
 int hoursLeft = 0;
 int minsLeft = 0;

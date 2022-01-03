@@ -95,8 +95,6 @@ class _CountDownState extends State<CountDown> {
               ),
               ElevatedButton(
                   onPressed: () {
-                    // if (eventName == null) { }
-                    // print(eventName);
                     setState(() {
                       if (eventName == ' ') {
                         String text = 'Add an event name';
@@ -164,39 +162,3 @@ Future<void> showErrorDialog(String text, context) async {
         );
       });
 }
-
-// Future<void> _showMyDialog(context) async {
-//   return showDialog<void>(
-//     context: context,
-//     barrierDismissible: false, // user must tap button!
-//     builder: (BuildContext context) {
-//       return AlertDialog(
-//         title: const Text('AlertDialog Title'),
-//         content: SingleChildScrollView(
-//           child: ListBody(
-//             children: const <Widget>[
-//               Text('This is a demo alert dialog.'),
-//               Text('Would you like to approve of this message?'),
-//             ],
-//           ),
-//         ),
-//         actions: <Widget>[
-//           TextButton(
-//             child: const Text('Approve'),
-//             onPressed: () {
-//               Navigator.of(context).pop();
-//             },
-//           ),
-//         ],
-//       );
-//     },
-//   );
-// }
-
-// tasks
-// move the countdown to it's boxes done
-// change the future date to the selected date done
-//  fix the multiple countdown action from start bbutton  done
-// use label
-// alert for when textfied is empty
-// coonfirm ommitted time
