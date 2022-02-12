@@ -7,7 +7,7 @@ Reference is made to [an article written by Florin Pop](https://blog.bitsrc.io/1
 
 The objective of the event_countdown is to provide a continuously decrementing display of the months, days, hours, minutes, and seconds to a user entered event.
 
-A few resources to get you started if this is your first Flutter project:
+
 
 # User Stories
 - User can see an event input box containing an event name field, an date field, an optional time, and a ‘Start’ button.
